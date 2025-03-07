@@ -18,5 +18,5 @@ driver.find_element(By.XPATH, "//input[@type='submit']").click()
 message = driver.find_element(By.CLASS_NAME, "alert-success").text
 print(message)
 assert "successfully" in message
-driver.find_element(By.CSS_SELECTOR, "input[name='name'").send_keys("Vinay")
+driver.find_element(By.CSS_SELECTOR, "input[name='name'] ").send_keys("Vinay")
 time.sleep(2)
